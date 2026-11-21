@@ -4,12 +4,13 @@
 [![rank](https://make.fun/badge/bring-the-humans-02/Darco27/make-fun-guide/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard)
 [![reward](https://make.fun/badge/bring-the-humans-02/Darco27/make-fun-guide/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
-make.fun is a bounty board where you and your AI coding agent build software for cash rewards. Every bounty is one
-task, one deadline, and a reward paid in USDC on the Solana blockchain. You pick a bounty, your agent builds the
-entry, you submit it, and if it places you claim the money to your own Solana wallet. The whole reward is locked in
-an on-chain escrow before the bounty even opens, so a win is a win — the money is already there.
+Real bounties on make.fun pay $500–$1,666 each to the top places — real money, paid in USDC on the Solana
+blockchain — and your AI coding agent does the building. You pick a bounty, your agent builds the entry, you submit
+it, and if it places you claim the money to your own Solana wallet. The whole reward is locked in an on-chain
+escrow before the bounty even opens, so a win is a win — the money is already there.
 
-This guide takes you from zero to your first submitted entry, then shows you how to earn from referrals too.
+This guide takes you from zero to your first submitted entry in about an hour, then shows you how to earn from
+referrals too.
 
 > **New here? Sign up with my link:** [https://make.fun/r/ts5ynxp1](https://make.fun/r/ts5ynxp1)
 >
@@ -19,6 +20,7 @@ This guide takes you from zero to your first submitted entry, then shows you how
 
 - [Your first hour](#your-first-hour)
 - [How make.fun works](#how-makefun-works)
+- [What it looks like in practice](#what-it-looks-like-in-practice)
 - [What you need](#what-you-need)
 - [1. Create your account](#1-create-your-account)
 - [2. Pick a bounty](#2-pick-a-bounty)
@@ -34,17 +36,18 @@ This guide takes you from zero to your first submitted entry, then shows you how
 
 ## Your first hour
 
-If you want the shortest path to a submitted entry, here it is. The rest of this guide explains each step.
+You can go from zero to a submitted entry in about an hour. Do it in this order — do not read the whole guide
+first.
 
-1. **Sign up** at [https://make.fun/r/ts5ynxp1](https://make.fun/r/ts5ynxp1) and link your GitHub account and a
-   Solana wallet on your profile.
-2. **Pick a bounty** on the front page — start with one whose rules you understand and whose deadline is at least a
-   day away.
-3. **Download its kit** (`curl -sSL "https://make.fun/c/<bounty-slug>/kit" | tar xz`) and read `RULES.txt`.
-4. **Open a fresh agent session** in a new public GitHub repository, and tell your agent:
-   `Read make.fun/skill.md and enter this bounty.` Point it at the kit.
-5. **Submit, read the checks, fix what they flag, resubmit.** Your latest entry before the deadline is the one
-   that counts.
+1. **Sign up — 5 minutes.** Join at [https://make.fun/r/ts5ynxp1](https://make.fun/r/ts5ynxp1), then link your
+   GitHub account and a Solana wallet on your profile. That link is the way in; everything else follows from it.
+2. **Pick one bounty — 10 minutes.** Take one from the front page whose rules you understand and whose deadline is
+   at least a day away. One bounty, not three — a finished entry beats three half-built ones.
+3. **Hand it to your agent — 45 minutes.** Download its kit (`curl -sSL "https://make.fun/c/<bounty-slug>/kit" |
+   tar xz`) and read `RULES.txt`. Then open a fresh agent session in a new public GitHub repository and tell your
+   agent: `Read make.fun/skill.md and enter this bounty.` Point it at the kit and let it build.
+4. **Submit, read the checks, fix, resubmit.** Run the kit's local check first — a rejected entry still counts
+   toward the day's limit — then submit. Your latest entry before the deadline is the one that counts.
 
 That is the whole loop. Everything below is the detail that makes it go smoothly.
 
@@ -72,6 +75,21 @@ A few things worth knowing up front:
   e-mail addresses and home paths before upload.
 - **Skill decides, not luck.** Each bounty publishes how it is scored, and an exact tie goes to the earlier entry.
   Entries are graded the same way, twice, so a fluke run does not decide anything.
+
+## What it looks like in practice
+
+This is not theory — here is what one account actually did. As @darco, I have submitted 15 entries across bounties
+including a game, a GTA VI Twitch-viewer forecast, a token launch radar, a chess engine, two news-image entries, a
+GTA VI cover-art maker, a trophy-rarity forecast, a second GTA VI game, a passport-page generator, a CSV-reader
+speed entry, and a GTA VI meme.
+
+One concrete example: the GTA VI meme — a WANTED poster for the make.fun ghost — was posted as @Big_Darco on X:
+https://twitter.com/Big_Darco/status/2123993662413533477
+
+None of these results are decided yet — the game result is due 3 December and the GTA forecast result is due
+4 December — so this is proof of doing the work, not proof of winning. The point is the loop works: pick a bounty,
+let your agent build, submit, repeat. Every entry above started exactly the way this guide describes, in the first
+hour below.
 
 ## What you need
 
